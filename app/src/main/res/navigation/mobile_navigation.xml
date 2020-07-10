@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_islamabad">
+
+    <fragment
+        android:id="@+id/nav_islamabad"
+        android:name="com.example.tourguideislamabad.ui.islamabad.IslamabadFragment"
+        android:label="Islamabad"
+        tools:layout="@layout/fragment_islamabad">
+    </fragment>
+
+
+
+    <fragment
+        android:id="@+id/nav_geography_and_climate"
+        android:name="com.example.tourguideislamabad.ui.geography_and_climate.GeographyAndClimateFragment"
+        android:label="Geography and climate"
+        tools:layout="@layout/fragment_geography_and_climate" />
+    <fragment
+        android:id="@+id/nav_cityscape"
+        android:name="com.example.tourguideislamabad.ui.cityscape.CityscapeFragment"
+        android:label="Cityscape"
+        tools:layout="@layout/cityscape_fragment" />
+
+    <fragment
+        android:id="@+id/nav_demographics"
+        android:name="com.example.tourguideislamabad.ui.demographics.DemographicsFragment"
+        android:label="Demographics"
+        tools:layout="@layout/demographics_fragment" />
+
+
+    <fragment
+        android:id="@+id/nav_culture"
+        android:name="com.example.tourguideislamabad.ui.culture.CultureFragment"
+        android:label="Culture"
+        tools:layout="@layout/culture_fragment" />
+
+
+
+    <fragment
+        android:id="@+id/nav_health_care"
+        android:name="com.example.tourguideislamabad.ui.health_care.HealthCareFragment"
+        android:label="Health care"
+        tools:layout="@layout/health_care_fragment" />
+
+
+    <fragment
+        android:id="@+id/nav_recreation_places_in_islamabad"
+        android:name="com.example.tourguideislamabad.ui.recreation_places_in_Islamabad.RecreationPlacesInIslamabadFragment"
+        android:label="Recreation Places"
+        tools:layout="@layout/recreation_places_in_islamabad_fragment" />
+
+
+    <fragment
+        android:id="@+id/nav_sports"
+        android:name="com.example.tourguideislamabad.ui.sports.SportsFragment"
+        android:label="Sports"
+        tools:layout="@layout/sports_fragment" />
+
+
+    <fragment
+        android:id="@+id/nav_tourism"
+        android:name="com.example.tourguideislamabad.ui.tourism.TourismFragment"
+        android:label="Tourism"
+        tools:layout="@layout/tourism_fragment" />
+
+    <fragment
+        android:id="@+id/nav_transport"
+        android:name="com.example.tourguideislamabad.ui.transport.TransportFragment"
+        android:label="Transport"
+        tools:layout="@layout/transport_fragment" />
+
+    <fragment
+        android:id="@+id/nav_history"
+        android:name="com.example.tourguideislamabad.ui.history.HistoryFragment"
+        android:label="History"
+        tools:layout="@layout/history_fragment" />
+
+    <fragment
+        android:id="@+id/nav_about_us"
+        android:name="com.example.tourguideislamabad.ui.about_us.AboutUsFragment"
+        android:label="About us"
+        tools:layout="@layout/about_us_fragment" />
+</navigation>

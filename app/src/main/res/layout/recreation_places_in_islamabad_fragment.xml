@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=""
+        android:layout_margin="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/recreation_places_in_islamabad_layout_txt1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/string_recreation_places_in_islamabad_1"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/recreation_places_in_islamabad_layout_txt2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/string_recreation_places_in_islamabad_2" />
+
+            <ImageView
+                android:id="@+id/recreation_places_in_islamabad_layout_img1"
+                android:layout_width="match_parent"
+                android:layout_height="278dp"
+                android:layout_weight="1"
+                android:src="@drawable/img17" />
+
+            <TextView
+                android:id="@+id/recreation_places_in_islamabad_layout_txt3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/string_recreation_places_in_islamabad_3"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/recreation_places_in_islamabad_layout_txt4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/string_recreation_places_in_islamabad_4" />
+
+            <ImageView
+                android:id="@+id/recreation_places_in_islamabad_layout_img2"
+                android:layout_width="match_parent"
+                android:layout_height="239dp"
+                android:layout_weight="1"
+                android:src="@drawable/img18" />
+
+            <TextView
+                android:id="@+id/recreation_places_in_islamabad_layout_txt5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/string_recreation_places_in_islamabad_5"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/recreation_places_in_islamabad_layout_txt6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/string_recreation_places_in_islamabad_6" />
+
+            <ImageView
+                android:id="@+id/recreation_places_in_islamabad_layout_img3"
+                android:layout_width="match_parent"
+                android:layout_height="295dp"
+                android:layout_weight="1"
+                android:src="@drawable/img19" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

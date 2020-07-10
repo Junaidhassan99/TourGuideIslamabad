@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_islamabad"
+            android:icon="@drawable/ic_location_city_black_24dp"
+            android:title="About city" />
+        <item
+            android:id="@+id/nav_cityscape"
+            android:icon="@drawable/ic_location_city_black_24dp"
+            android:title="Cityscape" />
+        <item
+            android:id="@+id/nav_culture"
+            android:icon="@drawable/ic_location_city_black_24dp"
+            android:title="Culture" />
+        <item
+            android:id="@+id/nav_demographics"
+            android:icon="@drawable/ic_location_city_black_24dp"
+            android:title="Demographics" />
+
+        <item
+            android:id="@+id/nav_geography_and_climate"
+            android:icon="@drawable/ic_location_on_black_24dp"
+            android:title="Geography and climate" />
+
+
+
+
+
+
+
+
+        <item
+            android:id="@+id/nav_health_care"
+            android:icon="@drawable/ic_local_hospital_black_24dp"
+            android:title="Health care" />
+
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/ic_library_books_black_24dp"
+            android:title="History" />
+
+
+
+        <item
+
+            android:id="@+id/nav_recreation_places_in_islamabad"
+            android:icon="@drawable/ic_location_city_black_24dp"
+            android:title="Recreation Places" />
+
+
+        <item
+            android:id="@+id/nav_sports"
+            android:icon="@drawable/ic_location_city_black_24dp"
+            android:title="Sports" />
+        <item
+            android:id="@+id/nav_tourism"
+            android:icon="@drawable/ic_airplanemode_active_black_24dp"
+            android:title="Tourism" />
+
+        <item
+            android:id="@+id/nav_transport"
+            android:icon="@drawable/ic_directions_transit_black_24dp"
+            android:title="Transport" />
+
+
+
+
+
+    </group>
+
+    <group android:id="@+id/group_menu">
+
+    <item
+        android:id="@+id/nav_about_us"
+        android:icon="@drawable/ic_contact_mail_black_24dp"
+        android:title="About us" />
+    </group>
+</menu>

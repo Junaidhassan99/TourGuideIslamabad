@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=""
+        android:layout_margin="5dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tourism_layout_txt1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/string_transport_1"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tourism_layout_txt2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/string_transport_2" />
+
+
+            <TextView
+                android:id="@+id/tourism_layout_txt3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="@string/string_transport_3"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tourism_layout_txt4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/string_transport_4" />
+            <ImageView
+                android:id="@+id/tourism_layout_img24"
+                android:layout_width="match_parent"
+                android:layout_height="233dp"
+                android:contentDescription="xx"
+                android:src="@drawable/img24" />
+
+            <ImageView
+                android:id="@+id/tourism_layout_img25"
+                android:layout_width="match_parent"
+                android:layout_height="246dp"
+                android:src="@drawable/img25"
+                />
+
+            <TextView
+                android:id="@+id/tourism_layout_txt5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/string_transport_5"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tourism_layout_txt6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/string_transport_6" />
+
+            <TextView
+                android:id="@+id/tourism_layout_txt7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/string_transport_6" />
+
+            <TextView
+                android:id="@+id/tourism_layout_txt8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/string_transport_6" />
+
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

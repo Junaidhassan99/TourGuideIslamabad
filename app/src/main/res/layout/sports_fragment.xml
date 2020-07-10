@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=""
+        android:layout_margin="5dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/sports_layout_txt1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/string_sports_1" />
+
+            <ImageView
+                android:id="@+id/sports_layout_img1"
+                android:layout_width="match_parent"
+                android:layout_height="287dp"
+                android:src="@drawable/img20" />
+
+            <ImageView
+                android:id="@+id/sports_layout_img2"
+                android:layout_width="match_parent"
+                android:layout_height="127dp"
+                android:src="@drawable/img21" />
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
